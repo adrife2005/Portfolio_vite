@@ -1,0 +1,54 @@
+.navbar__hamburgerbtn .line {
+  transition: 0.1s ease-in-out;
+}
+
+.navbar__hamburgerbtn .linetop {
+  /* transform: translateY(10px) rotate(45deg); */
+  transform: translateY(10px) rotate(45deg);
+  transition: transform 0.1s ease-in-out;
+}
+
+.navbar__hamburgerbtn .remove {
+  transform: scaleX(0);
+  opacity: 0;
+  transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+}
+
+.navbar__hamburgerbtn .linebottom {
+  /* transform: translateY(-10px) rotate(-45deg); */
+  transition: transform 0.1s ease-in-out;
+  transform: translateY(-10px) rotate(-45deg);
+}
+.mobile__line {
+  border: 1px solid var(--clr-slate600);
+  padding: 0 1rem;
+}
+
+.mobile-menu {
+  display: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobile-menu .mobile__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mobile-menu .mobile__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.mobile-menu .mobile__social a i {
+  font-size: var(--text-xl);
+  padding: 6px;
+}
+
+.navbar__toggle {
+  font-size: var(--text-xl);
+}

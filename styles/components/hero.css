@@ -1,0 +1,130 @@
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 4rem;
+  height: 80vh;
+}
+
+.hero .hero__img {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+}
+
+.hero .hero__name {
+  font-size: var(--text-4xl);
+  color: var(--clr-slate600);
+  text-align: center;
+  letter-spacing: -0.05rem;
+}
+
+.hero .hero__rol {
+  font-size: var(--text-8xl);
+  color: var(--clr-slate400);
+  line-height: 1;
+}
+
+.hero .hero__description {
+  max-width: 60ch;
+  font-size: var(--text-lg);
+}
+
+.hero .hero__btn {
+  padding: 0.8rem 1rem;
+}
+
+.hero .hero__mousescroll {
+  margin-top: 0.5rem;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+
+/* 2xl */
+/* @media (max-width: 1536px) {
+} */
+
+/* xl */
+@media (max-width: 1280px) {
+  .hero .container {
+    gap: 20px;
+    margin-top: 4rem;
+  }
+  .hero .hero__img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .hero .hero__rol {
+    font-size: var(--text-7xl);
+  }
+
+  .hero .hero__mousescroll {
+    margin-top: 1rem;
+  }
+}
+
+/* lg */
+/* @media (max-width: 1024px) {
+} */
+
+/* md */
+@media (max-width: 768px) {
+  .hero .container {
+    gap: 20px;
+    margin-top: 4rem;
+  }
+
+  .hero .hero__name {
+    font-size: var(--text-3xl);
+  }
+
+  .hero .hero__rol {
+    font-size: var(--text-6xl);
+  }
+
+  .hero .hero__mousescroll {
+    margin-top: 2rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .hero .hero__name {
+    font-size: var(--text-3xl);
+  }
+
+  .hero .hero__rol {
+    font-size: var(--text-5xl);
+    line-height: 1.2;
+  }
+
+  .hero .hero__description {
+    font-size: var(--text-sm);
+  }
+
+  .hero .hero__btn {
+    padding: 0.6rem 1rem;
+  }
+
+  .hero .hero__mousescroll {
+    margin-top: 0rem;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .hero .hero__rol {
+    font-size: var(--text-4xl);
+    line-height: 1.2;
+  }
+  .hero .hero__img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+  }
+}
