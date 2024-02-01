@@ -52,8 +52,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
   color: var(--clr-slate100);
-  overflow-x: hidden;
   overflow-y: visible;
+  overflow-x: hidden;
 }
 
 img,
