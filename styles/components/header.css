@@ -1,5 +1,6 @@
 .navbar {
   padding: 1rem 0;
+  box-shadow: 0 2px 10px 1px var(--clr-slate400);
 }
 
 .fixed {
@@ -100,5 +101,6 @@
 @media (max-width: 475px) {
   .navbar {
     padding: 0.2rem;
+    box-shadow: 0 2px 10px 1px var(--clr-slate600);
   }
 }
