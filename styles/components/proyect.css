@@ -52,13 +52,9 @@
 
 .proyect__card .proyect__skills {
   margin-top: 20px;
-  width: 25px;
   display: flex;
   align-items: center;
-}
-
-.proyect__card .proyect__skills img {
-  margin-right: 7px;
+  flex-wrap: wrap;
 }
 
 /* 2xl */

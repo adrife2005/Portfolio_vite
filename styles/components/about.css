@@ -28,10 +28,8 @@
   display: flex;
   align-items: center;
   margin-top: 30px;
-}
-
-.about .about__section .about__list img {
-  margin-right: 20px;
+  color: var(--clr-slate400);
+  flex-wrap: wrap;
 }
 
 .about .about__img img {
@@ -39,6 +37,56 @@
   height: 45rem;
   border-radius: 1rem;
   object-fit: cover;
+}
+
+.span {
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.span_new {
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin: 10px;
+  font-size: var(--text-sm);
+}
+
+.span_1 {
+  background-color: yellow;
+  color: black;
+}
+
+.span_2 {
+  background-color: blue;
+  color: white;
+}
+
+.span_3 {
+  background-color: green;
+  color: white;
+}
+
+.span_4 {
+  background-color: lightblue;
+  color: black;
+}
+
+.span_5 {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.span_6 {
+  background-color: greenyellow;
+  color: black;
+}
+
+.span_7 {
+  background-color: blue;
+  color: white;
 }
 
 /* 2xl */
