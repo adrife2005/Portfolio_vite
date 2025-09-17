@@ -44,6 +44,8 @@
   border-radius: 10px;
   font-weight: 600;
   margin: 10px;
+  outline: 1px solid var(--clr-slate300);
+  color: var(--clr-slate300);
 }
 
 .span_new {
@@ -52,42 +54,10 @@
   font-weight: 600;
   margin: 10px;
   font-size: var(--text-sm);
+  outline: 1px solid var(--clr-slate300);
+  color: var(--clr-slate300);
 }
 
-.span_1 {
-  background-color: yellow;
-  color: black;
-}
-
-.span_2 {
-  background-color: blue;
-  color: white;
-}
-
-.span_3 {
-  background-color: green;
-  color: white;
-}
-
-.span_4 {
-  background-color: lightblue;
-  color: black;
-}
-
-.span_5 {
-  background-color: lightskyblue;
-  color: black;
-}
-
-.span_6 {
-  background-color: greenyellow;
-  color: black;
-}
-
-.span_7 {
-  background-color: blue;
-  color: white;
-}
 
 /* 2xl */
 /* @media (max-width: 1536px) {
